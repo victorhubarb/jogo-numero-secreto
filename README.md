@@ -12,18 +12,21 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-
+Guessing game, where when the page is loaded, the computer chooses a number between 1 and 1000, and you need to guess the chosen number. The game is played through voice recognition.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: 
-- `Feature 2`: 
-- `Feature 3`: 
+- `Feature 1`: Voice recognition by the computer when the user verbally guesses a number.
+- `Feature 2`: Automatic selection of the number by the computer.
+- `Feature 3`: Connection to the Web Speech API.
+- `Feature 4`: Validation of the user's guesses with hints if the number is higher or lower, and after a correct guess, a button to play again.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
 Project requirements:
  - Have your preferred IDE installed on your computer.
+
+Note: IMPORTANT TO HAVE YOU MICROPHONE ON AND AVAILABLE TO PLAY THE GAME.
 
 Access the project hosted [here](https://apeperia-one-blue.vercel.app) and have fun:
  - Project hosted on Vercel.
