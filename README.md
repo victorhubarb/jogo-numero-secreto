@@ -1,4 +1,4 @@
-# Jogo do Numero Secreto <a name="readme-top"></a>
+# Guess the number <a name="readme-top"></a>
 ![Static Badge](https://img.shields.io/badge/status-completed-green?style=for-the-badge)
 
 ## Table of Contents 
@@ -12,33 +12,35 @@
 * [Project Developers](#project-developers)
 
 ## Project Description
-Guessing game, where when the page is loaded, the computer chooses a number between 1 and 1000, and you need to guess the chosen number. The game is played through voice recognition.
+Guess the number is an interactive voice-activated guessing game where the computer randomly selects a number between 1 and 1000, and players use their voice to guess the number. Utilizing the Web Speech API for voice recognition, this game offers a unique and engaging way to interact with technology. Players receive immediate auditory feedback on whether their guess is too high, too low, or correct, enhancing the interactive experience.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 ## Features and Application Demonstration
-- `Feature 1`: Voice recognition by the computer when the user verbally guesses a number.
-- `Feature 2`: Automatic selection of the number by the computer.
-- `Feature 3`: Connection to the Web Speech API.
-- `Feature 4`: Validation of the user's guesses with hints if the number is higher or lower, and after a correct guess, a button to play again.
+- **Voice Recognition**: Utilizes the computer's microphone to listen to the player's guesses, providing a hands-free gaming experience.
+- **Random Number Generator**: At the start of each game session, the computer automatically selects a random number between 1 and 1000.
+- **Web Speech API Integration**: Connects to the Web Speech API to enable real-time voice recognition and processing.
+- **Dynamic Feedback System**: Offers clues if the guessed number is higher or lower than the target. Once the correct number is guessed, the game announces the success and presents an option to play again with a new number.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Access
-Project requirements:
- - Have your preferred IDE installed on your computer.
+### Prerequisites
+- **Microphone**: Ensure your microphone is on and permitted to be used on your web browser to fully engage with the voice recognition features.
 
-Note: IMPORTANT TO HAVE YOU MICROPHONE ON AND AVAILABLE TO PLAY THE GAME.
+### Online Access
+- **Live Demo**: Experience the game directly through its hosted version on Vercel:
+  - [Play Guess My Number](https://jogo-numero-secreto-cyan-theta.vercel.app) to test your guessing skills and interact with the voice-activated interface without any setup.
 
-Access the project hosted [here](https://jogo-numero-secreto-cyan-theta.vercel.app) and have fun:
- - Project hosted on Vercel.
- - Easy implementation, [click](https://jogo-numero-secreto-cyan-theta.vercel.app) and enter the project, try it out easily and quickly without needing to download the files to your own computer.
+### Local Setup
+- **Source Code**:
+  - Visit the [GitHub repository](https://github.com/victorhubarb/jogo-numero-secreto) to view the source code.
+  - To download the project, [click here](https://github.com/victorhubarb/jogo-numero-secreto/archive/refs/heads/main.zip), unzip the file, and open the project in your preferred IDE.
 
-Have the code on your computer:
- - Access the project source code [here](https://github.com/victorhubarb/jogo-numero-secreto) or download the project [here](https://github.com/victorhubarb/jogo-numero-secreto/archive/refs/heads/main.zip). After one of these steps, and also unzip it on your computer in case of download, open the project in your preferred IDE.
-
-Clone repository with the following steps:
- 1. Open the terminal
- 2. git clone https://github.com/victorhubarb/jogo-numero-secreto.git
- 3. Press ENTER to create your clone
+- **Clone the Repository**:
+  ```bash
+  # Open your terminal
+  git clone https://github.com/victorhubarb/jogo-numero-secreto.git
+  cd jogo-numero-secreto
+  # Now, you are ready to run the project locally.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Technologies Used
